@@ -1,0 +1,140 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0073e6;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+.white {
+color: #ffffff;
+}
+.yellow {
+    color: #ffff00;
+    }
+    nav {
+        background-color: #333;
+        padding: 5px 0;
+    }
+    nav ul {
+        list-style: none;
+        padding: 5px;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 80%; 
+        margin: 0 auto; 
+    }   
+    nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px;
+        display: block;
+    
+    }
+    main {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 20px;
+        gap: 10px;
+    }
+
+
+.card-container {
+    display: flex;
+    gap: 20px; 
+    padding: 20px; 
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+
+.card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+.left-card {
+    flex: 3; 
+}
+
+
+.right-card {
+    flex: 1; 
+}
+
+.card.right-card ul {
+    
+    list-style: none;
+    padding: 0;
+   
+  
+}
+
+.card.right-card ul li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.card-header {
+    background-color: #0073e6;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.card-content {
+    padding: 20px;
+}
+
+
+.card-container-img {
+    float: right;
+     padding: 20px;
+  
+  }
+
+  .flex-container {
+    display: flex;
+    align-items: stretch;
+  
+  }
+  
+  .flex-container > div {
+   
+    margin: 10px;
+  
+  }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
