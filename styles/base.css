@@ -10,13 +10,14 @@ body {
 
 header {
     background-color: #0073e6;
-    padding: 25px;
+    padding: 5px 0 0 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
     font-size: 1.5em;
+    padding: 20px;
 }
 .white {
 color: #ffffff;
@@ -125,8 +126,13 @@ color: #ffffff;
   
   }
   
-  .flex-container > div {
-   
+  .flex-container-8 {
+    flex-grow: 8;
+    margin: 10px;
+  
+  }
+  .flex-container-3 {
+    flex-grow: 3;
     margin: 10px;
   
   }
