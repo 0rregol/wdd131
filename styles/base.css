@@ -53,7 +53,7 @@ color: #ffffff;
         display: flex;
         justify-content: space-between;
         padding: 0;
-        max-width:  1200px;
+        max-width:  4000px;
         margin: 20px;
         gap: 10px;
     }
@@ -139,6 +139,7 @@ color: #ffffff;
     flex-grow: 3;
     margin: 10px;
     text-transform: inherit;
+    text-align: center;
     
   
   }
