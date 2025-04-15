@@ -83,7 +83,7 @@ textarea {
 }
 
 .rating input[type="radio"] {
-    margin-right: 5px; /* Espacio entre el círculo y el texto */
+    margin-right: 5px;
     cursor: pointer;
 }
 
