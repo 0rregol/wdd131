@@ -59,8 +59,6 @@ document.addEventListener('DOMContentLoaded', function() {
             timestamp: new Date().toISOString()
         };
         localStorage.setItem('productReview', JSON.stringify(formData));
-
-        alert(`Review posted successfully! Total reviews: ${reviewCount}`);
         this.reset();
     });
 });
